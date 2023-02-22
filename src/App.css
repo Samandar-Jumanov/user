@@ -1,0 +1,66 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App
+{
+  width: 100vw;
+  height: 100%;
+  background-color: rgb(16, 16, 17);
+  color: darkslategray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.box 
+{
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  outline: none;
+}
+.box.des{
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+}
+.btn 
+{
+  width: 200px;
+  height: 40px;
+  background-color: skyblue;
+  color: black;
+  border: none;
+  cursor:pointer;
+  margin-top: 20px;
+
+}
+.btn.delete 
+{
+  background-color: rgb(231, 46, 46);
+}
+
+.createdBox 
+{
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white ;
+  margin-top: 10px;
+  box-shadow: 0 0 4px  white;
+}
+.username, .userage , .userDes
+{
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 220;
+  font-family: sans-serif;
+}
